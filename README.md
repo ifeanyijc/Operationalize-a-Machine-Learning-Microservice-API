@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+# Operationalize-a-Machine-Learning-Microservice-API [![ifeanyijc](https://circleci.com/gh/ifeanyijc/Operationalize-a-Machine-Learning-Microservice-API.svg?style=svg)](https://app.circleci.com/pipelines/github/ifeanyijc/Operationalize-a-Machine-Learning-Microservice-API/1/workflows/ef79fe8f-5a67-415a-a55b-e18f07dd18ad)
 
 ## Project Overview
 
