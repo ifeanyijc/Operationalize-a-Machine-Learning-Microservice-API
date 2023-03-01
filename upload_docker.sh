@@ -5,11 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=ubahjc/sklearn
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login -u ubahjc
+docker tag ubahjc/sklearn $dockerpath:latest
 
 # Step 3:
 # Push image to a docker repository
+docker push ubahjc/sklearn:latest
