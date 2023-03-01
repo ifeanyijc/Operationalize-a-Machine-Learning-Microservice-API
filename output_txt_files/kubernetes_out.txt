@@ -1,1 +1,6 @@
-<paste log output from Kubernetes-mediated prediction, here>
+@ifeanyijc ➜ /workspaces/Operationalize-a-Machine-Learning-Microservice-API (main) $ kubectl port-forward sklearn 8000:80
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
