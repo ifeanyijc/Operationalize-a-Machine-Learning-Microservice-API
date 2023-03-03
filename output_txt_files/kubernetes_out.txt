@@ -1,6 +1,7 @@
-@ifeanyijc ➜ /workspaces/Operationalize-a-Machine-Learning-Microservice-API (main) $ kubectl port-forward sklearn 8000:80
+@ifeanyijc ➜ /workspaces/Operationalize-a-Machine-Learning-Microservice-API (main) $ ./run_kubernetes.sh 
+Error from server (AlreadyExists): pods "sklearn" already exists
+NAME      READY   STATUS    RESTARTS   AGE
+sklearn   1/1     Running   0          2m
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
-Handling connection for 8000
-Handling connection for 8000
 Handling connection for 8000
