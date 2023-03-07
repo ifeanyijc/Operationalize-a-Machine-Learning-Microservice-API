@@ -5,6 +5,12 @@
 # app.py should pass pylint
 # (Optional) Build a simple integration test
 
+install-hadolint:
+	# This should be run from a virtualenv
+	# This will install and set up hadolint
+	wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v2.10.0/hadolint-Linux-x86_64
+	chmod +x /bin/hadolint
+	
 setup:
 	# Create python virtualenv & source it
 	# source ~/.devops/bin/activate
@@ -30,6 +36,4 @@ lint:
 
 all: install lint test
 
-install-hadolint:
-	wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v2.10.0/hadolint-Linux-x86_64
-	chmod +x /bin/hadolint
+
