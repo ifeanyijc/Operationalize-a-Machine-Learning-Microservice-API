@@ -1,7 +1,19 @@
+@ifeanyijc ➜ /workspaces/Operationalize-a-Machine-Learning-Microservice-API (main) $ ./make_prediction.sh 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
+
+
 @ifeanyijc ➜ /workspaces/Operationalize-a-Machine-Learning-Microservice-API (main) $ ./run_kubernetes.sh 
-Error from server (AlreadyExists): pods "sklearn" already exists
 NAME      READY   STATUS    RESTARTS   AGE
-sklearn   1/1     Running   0          2m
+sklearn   1/1     Running   0          105s
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
 Handling connection for 8000
